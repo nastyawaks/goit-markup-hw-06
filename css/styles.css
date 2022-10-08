@@ -566,7 +566,6 @@ body {
   transform: translate(-50%, -50%) scale(1);
 
   width: 528px;
-  height: 581px;
 
   background-color: #ffffff;
 
@@ -592,6 +591,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover,
@@ -602,7 +603,6 @@ body {
 /* форма */
 
 .form {
-  margin-bottom: 10px;
   padding: 40px;
 }
 
@@ -716,6 +716,7 @@ body {
   background-size: contain;
   background-origin: border-box;
 }
+
 
 .agree-btn {
   margin-top: 30px;
@@ -845,14 +846,14 @@ padding-bottom: 60px;
 }
 
 .mailing-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .form-box {
   display: flex;
 }
 
-.mail-field input {
+.mail-input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
