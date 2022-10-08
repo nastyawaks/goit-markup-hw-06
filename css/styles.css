@@ -717,6 +717,9 @@ body {
   background-origin: border-box;
 }
 
+.checkbox:focus + .icon-check {
+  border-color: var(--link-color);
+}
 
 .agree-btn {
   margin-top: 30px;
